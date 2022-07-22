@@ -1,0 +1,40 @@
+
+@media only screen and (min-width: 1024px) {
+    .ChartTitleContainer{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div .ChartTitle{
+        margin-bottom: -63px;
+        z-index: 5;
+        position:relative;
+        align-items: center;
+        color: #73A9AD;
+    }
+    
+    div .Chart{
+        z-index: 1;
+    }
+  }
+  @media only screen and (max-width: 912px) {
+    .ChartContainer{
+        width: 100%;
+    }
+    div .ChartTitle{
+        margin-bottom: -83px;
+        z-index: 2;
+        position:relative;
+        text-align: center;
+        color: #73A9AD;
+        
+    }
+    
+    div .Chart{
+        z-index: 1;
+        position:relative
+    }
+    
+  }
+

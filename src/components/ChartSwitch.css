@@ -1,0 +1,29 @@
+.ChartSwitch_Container {
+    
+    z-index: 0;
+}
+
+@media only screen and (min-width: 1024px) {
+    .Cuadro {
+        width: fit-content;
+        outline: #F5F0BB dashed 6px;
+        outline-offset: -1px;
+        position: relative
+    }
+    .ChartSwitch_Container {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 912px) {
+    .Cuadro {
+        width: 100%;
+        outline: #F5F0BB dashed 6px;
+        
+        outline-offset: -1px;
+        position: relative
+    }
+    .ChartSwitch_Container {
+        width: 100%;
+    }
+}

@@ -1,0 +1,43 @@
+.Contenedor_date_picker {
+    display: flex;
+    width: 33.3%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.Box_date_picker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.Date_picker{
+    
+    color: #F5F0BB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 60px;
+    background-color: #73A9AD;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    border: #73A9AD;
+    border-radius: 50px;
+}
+@media only screen and (max-width: 912px) {
+    .Contenedor_date_picker {
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .individual_date_picker{
+        margin-bottom: 20px;
+    }
+}
+.NoExiste{
+    z-index: -1;
+}

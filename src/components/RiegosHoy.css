@@ -1,0 +1,70 @@
+.NonChart_Container {
+    height: 66.6vh;
+    width: 66.6vw;
+    background-color: #F5F0BB;
+    outline: #F5F0BB dashed 5px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.NonChart_Title {
+    color: #73A9AD;
+    text-align: center;
+}
+
+.RiegosHoy_Cuadro {
+    width: 90%;
+    height: 99%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+
+
+}
+
+.RiegosHoy_Elemento {
+    text-align: center;
+    width: 40%;
+    border-radius: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #73A9AD;
+    margin-bottom: 10px;
+    color: #F5F0BB;
+
+}
+
+.RiegosHoy_Cuadro::-webkit-scrollbar {
+    display: none;
+}
+
+@media only screen and (max-width: 912px) {
+    .NonChart_Container {
+        height: 66.6vh;
+        width: 100vw;
+    }
+
+    .RiegosHoy_Cuadro {
+        width: 100%;
+    }
+
+    .RiegosHoy_Elemento {
+        width: 50%;
+
+
+    }
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+}
+
+
+.imgWidth50 {
+    width: 50%;
+}
